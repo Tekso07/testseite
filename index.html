@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Für meine Liebe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #ffebf0, #ffc6d9);
+            color: #b03a58;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            animation: fadeIn 2s ease-in;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            margin-bottom: 10px;
+        }
+        .section {
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .hero {
+            width: 100%;
+            max-width: 600px;
+            height: 200px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            margin: 20px auto;
+            animation: fadeIn 3s ease-in-out;
+            display: block;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        .love-message, .quote {
+            font-size: 1.3em;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            display: inline-block;
+            animation: slideIn 2s ease-in-out;
+            max-width: 600px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background: #b03a58;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #902f49;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            .gallery { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); }
+            .hero { width: 100%; height: auto; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Für die Liebe meines Lebens ❤️</h1>
+    <div class="love-message">Du bist mein größtes Glück und du hast die schönse Seele auf dieser Welt.<br>
+        Du hast mir gezeigt, was es heißt jemanden zu lieben.<br> danke für alle mein bebi. 💖</div>
+    
+    <div class="section">
+        <h2>Unser erstes Treffen</h2>
+        <p class="quote">"Als ich dich zum ersten Mal sah, wusste ich, dass du etwas ganz Besonderes bist."</p>
+        <img src="bilder/bild-2.jpeg" alt="Unser erstes Treffen" class="hero">
+        <p class="quote">"Warum ich dich so lieb habe!"</p>
+        <img src="bilder/bild-9.jpeg" class="hero">
+
+    </div>
+    
+    <div class="section">
+        <h2>Unsere schönsten Erinnerungen</h2>
+        <div class="gallery">
+            <img src="bilder/bild-1.jpeg" alt="Galeriebild 1">
+            <img src="bilder/bild-3.jpeg" alt="Galeriebild 2">
+            <img src="bilder/bild-4.jpeg" alt="Galeriebild 3">
+            <img src="bilder/bild-5.jpeg" alt="Galeriebild 4">
+            <img src="bilder/bild-6.jpeg" alt="Galeriebild 5">
+            <img src="bilder/bild-7.jpeg" alt="Galeriebild 6">
+            <img src="bilder/bild-8.jpeg" alt="Galeriebild 7">
+            <img src="bilder/bild-9.jpeg" alt="Galeriebild 8">
+            <img src="bilder/bild-10.jpeg" alt="Galeriebild 1">
+            <img src="bilder/bild-13.jpeg" alt="Galeriebild 2">
+            <img src="bilder/bild-14.jpeg" alt="Galeriebild 3">
+            <img src="bilder/bild-15.jpeg" alt="Galeriebild 4">
+            <img src="bilder/bild-16.jpeg" alt="Galeriebild 5">
+            <img src="bilder/bild-17.jpeg" alt="Galeriebild 6">
+            <img src="bilder/bild-11.jpeg" alt="Galeriebild 7">
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Warum ich dich liebe</h2>
+        <p class="quote">"Du bist das Beste, was mir in meinem gesamten Leben je passiert ist. 
+            Du bist einfach ein unglaublicher Mensch. 
+            Für mich bist du alles, was ich je brauchen werde. 
+            Ich werde für dich da sein in allen Zeiten, egal wie schwierig es sein kann. 
+            Ich werde dich immer lieben.
+            <br><br>
+            Schau ab und zu auf dieser Seite vorbei, es könnte sich sachen ändern!<3"</p>
+    </div>
+</body>
+</html>
